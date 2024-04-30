@@ -1,0 +1,27 @@
+body{
+    background-color:#1d1c1c ;
+    font-family:monospace;
+}
+
+/*
+estilo da barra de navegação principal
+*/
+#nav{
+    background-color: #363636;
+    color: rgb(196, 209, 15);
+}
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#nav ul li{
+     
+ display:inline-block;
+ padding: 25px;
+   
+}
+#nav ul li:hover{
+    background-color: #e0dd1a;      
+    color: #1d1c1c;
+   }
